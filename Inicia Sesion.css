@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>ESTILOS</title>
+</head>
+	<style type="text/css">
+		*{
+			font-family: sans-serif;
+			font-size: 20px;
+			color: #798e94;
+		}
+body{
+	width: 800px;
+	margin: auto;
+	background-color: #80D8FF;
+}
+.contacto{
+	border: 1px solid #CED5D7;
+	border-radius: 80px;
+	padding: 45px 45px 20px;
+	margin-top: 60px;
+	background-color: lightyellow;
+	box-shadow: 0px 5px 10px #B5C1C5, 0 0 0 10px #EEF5F7 inset;
+}
+.contacto label{
+	display:  block;
+	font-weight: bold;
+}
+.contacto div{
+	margin-bottom: 20px;
+}
+.contacto input[type="text"], .contacto textarea{
+	padding: 7px 6px;
+	width: 294px;
+	border: 1px solid #CED5D7;
+	resize: none;
+	box-shadow: 0 0 0 3px #EEF5F7;
+	margin:  5px 0;
+}
+.contacto input[type="submit"]{
+	border:  3px solid #CED5D7;
+	box-shadow: 0 0 0 3px #EEF5F7;
+	padding: 10px 16px;
+	border-radius: 60px;
+	font-weight: bold;
+	text-shadow: 1px 1px 0px white;
+
+	background: #e4f1f6;
+	background: -moz-linear-gradient(top, #e4f1f6 0px, #cfe6ef 100px);
+	background: -webkit-linear-gradient(top, #e4f1f6 0px, #cfe6ef 100px);
+
+}
+.contacto input[type="submit"]:hover{
+	background: #edfcff;
+	background: -moz-linear-gradient(top,#edfcff 0px, #cfe6ef 100px);
+	background: -webkit-linear-gradient(top, #edfcff 0px, #cfe6ef 100px);
+}
+.contacto input[type="submit"]:active{
+	background: #cfe6ef;
+	background: -moz-linear-gradient(top, #cfe6ef 0px, #edfcff 100px);
+	background: -webkit-linear-gradient(top, #cfe6ef 0px, #edfcff 100px );
+}
+</body>
+</html>
